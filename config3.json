@@ -1,0 +1,19 @@
+{
+  "data_dir": "/USER/",
+  "result_dir": "/USER/result/",
+  "config_dir": "/USER/exp_config/",
+  "pretrained_model": "skt/kogpt2-base-v2",
+  "architecture": "GPT2ForSequenceClassification",
+  "tokenizer_class": "GPT2TokenizerFast",
+  "num_classes": 6,
+  "max_seq_len": 138,
+  "train_epochs": 15,
+  "adam_epsilon": 1e-6,
+  "seed": 84,
+  "train_batch_size": 16,
+  "eval_batch_size": 16,
+  "learning_rate": 0.00001,
+  "warmup_proportion": 200,
+  "run": "demo2_adamW",
+  "patience": 5
+}
